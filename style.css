@@ -1,0 +1,183 @@
+#turno {
+  font-family : monospace;
+  font-size   : 30px;
+  font-weight : bold;
+  font-style  : italic;
+  color       : black;
+  text-align  : center;
+
+  background: white;
+  width: 600px;
+  height: 50px;
+  position: relative;
+}
+
+#msg_fin {
+  background: yellow;
+  width: 500px;
+  height: 100px;
+
+  position: absolute;
+
+  left:50px;
+  top:300px;
+
+  font-size   : 35px;
+  color       : blue;
+  text-align  : center;
+  
+  display: none;
+
+}
+
+#cuadricula {
+  background: white;
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+#arriba_izq {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#arriba_cent {
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#arriba_der {
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+
+  position: absolute;
+  left: 400px;
+  top: 0px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#cent_izq {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: 2px solid black;
+
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#cent_cent {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#cent_der {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#abajo_izq {
+  border-top: 5px solid black;
+  border-right: 5px solid black;
+
+  position: absolute;
+  left: 0px;
+  top: 400px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#abajo_cent {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+
+  position: absolute;
+  left: 200px;
+  top: 400px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#abajo_der {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
